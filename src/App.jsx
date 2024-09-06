@@ -1,13 +1,13 @@
 
 import './App.css'
-import CategoryFilter from './components/CategoryFilter'
+import Home from './components/Home'
 
 function App() {
 
 
   return (
     <>
-      <CategoryFilter/>
+      <Home/>
     </>
   )
 }

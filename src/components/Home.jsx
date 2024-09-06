@@ -11,9 +11,9 @@ function Home() {
 
     const [items, setItems] = useState(data);
 
-    const allcategory =["All" ,... new Set(data.map((item,index)=>item.category))];
+    const allcategory = ["All", ... new Set(data.map((item, index) => item.category))];
 
-    const [allCat,setAllCat]=useState(allcategory);
+    const [allCat, setAllCat] = useState(allcategory);
 
     const filterItem = (categor) => {
         if (categor === 'All') {
@@ -28,6 +28,7 @@ function Home() {
 
     }
 
+    
 
     return (
         <>

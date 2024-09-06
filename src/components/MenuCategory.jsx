@@ -10,7 +10,7 @@ export default function MenuCategory({ filterItem, allcategory }) {
                 {
                     allcategory.map((item) => {
                         console.log(item)
-                        return <button className='text-lg cursor-pointer hover:scale-110 transition-all duration-200' onClick={() => { filterItem(item) }}>{item}</button>
+                        return <button className='text-lg cursor-pointer hover:scale-110 transition-all duration-200 focus:border-b px-5 border-orange-400' onClick={() => { filterItem(item) }}>{item}</button>
                     })
                 }
 
